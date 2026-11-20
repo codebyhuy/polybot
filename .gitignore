@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 data/
 data/
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -225,4 +223,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
->>>>>>> 799436a9325286f63ee08ab47a40602884ae7abe
