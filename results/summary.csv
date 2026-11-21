@@ -1,0 +1,7 @@
+type,events,significant,avg_move_pts,avg_mins_to_peak,avg_reversal_pct
+FOMC statement,1,1/1,4.5,8.0,67
+Jobs report,4,2/4,4.2,2.5,40
+CPI,4,2/4,2.8,3.0,38
+FOMC minutes,2,1/2,1.5,3.0,67
+PPI,4,1/4,1.0,21.0,33
+JOLTS,4,0/4,0.0,-,-
