@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 import feedparser
 import requests
 
+from filters import is_important
+
 FEEDS = {
     "fed": "https://www.federalreserve.gov/feeds/press_all.xml",
     "bls": "https://www.bls.gov/feed/bls_latest.rss",
@@ -26,6 +28,8 @@ if os.path.exists(OUTFILE):
 new_file = not os.path.exists(OUTFILE)
 first_run = len(seen) == 0
 
+print(f"Watching {len(FEEDS)} feeds, {len(seen)} headlines already logged...", flush=True)
+
 with open(OUTFILE, "a", newline="") as f:
     writer = csv.writer(f)
     if new_file:
@@ -45,7 +49,9 @@ with open(OUTFILE, "a", newline="") as f:
                     writer.writerow([now, source, entry.get("published", ""),
                                      entry.get("title", ""), link, first_run])
                     if not first_run:
-                        print(f"{now}  NEW [{source}] {entry.get('title', '')}")
+                                                title = entry.get("title", "")
+                    tag = "IMPORTANT!!!!!!!!!" if is_important(source, title) else "noise"
+                    print(f"{now}  NEW [{source}] ({tag}) {title}")
                 f.flush()
             except Exception as e:
                 print(f"Error ({source}):", e)
