@@ -1,5 +1,5 @@
 import csv
-from filters import is_important
+from research.filters import is_important
 
 for r in csv.DictReader(open("data/news.csv")):
     if is_important(r["source"], r["title"]):

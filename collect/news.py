@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import feedparser
 import requests
 
-from filters import is_important
+from research.filters import is_important
 
 FEEDS = {
 "bls_cpi": "https://www.bls.gov/feed/cpi.rss",

@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from batch_study import load_events
+from research.batch_study import load_events
 
 GAMMA = "https://gamma-api.polymarket.com"
 DATA = "https://data-api.polymarket.com/v2"

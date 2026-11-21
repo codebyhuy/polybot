@@ -8,7 +8,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import requests
 
-from filters import is_important
+from research.filters import is_important
 from zoneinfo import ZoneInfo
 
 CLOB = "https://clob.polymarket.com"

@@ -1,7 +1,7 @@
 import random
 from datetime import datetime, timezone, timedelta
 
-from batch_study import MARKETS, analyze, get_history, load_events
+from research.batch_study import MARKETS, analyze, get_history, load_events
 
 START = datetime(2026, 10, 1, tzinfo=timezone.utc)
 END = datetime(2026, 11, 19, tzinfo=timezone.utc)

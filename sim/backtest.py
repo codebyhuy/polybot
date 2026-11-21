@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-from batch_study import get_history, load_events, price_at
+from research.batch_study import get_history, load_events, price_at
 
 TOKEN = "111662129652828266889360374468657435151479595863413519836161861837506140152890"  # Dec hike 25
 COST_LEVELS = [0, 1, 2]  # round-trip cost in points (spread + fees + slippage)

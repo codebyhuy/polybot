@@ -1,5 +1,5 @@
-from batch_study import load_events
-from mm_sim2 import MARKETS, MAX_INV, QUOTE_SIZE, condition_for, fetch_trades, in_danger
+from research.batch_study import load_events
+from sim.mm_sim2 import MARKETS, MAX_INV, QUOTE_SIZE, condition_for, fetch_trades, in_danger
 
 
 def simulate(trades, event_times, protect, skew, half_spread=1.0, fill_share=0.10):
