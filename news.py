@@ -9,8 +9,10 @@ import requests
 from filters import is_important
 
 FEEDS = {
-    "fed": "https://www.federalreserve.gov/feeds/press_all.xml",
-    "bls": "https://www.bls.gov/feed/bls_latest.rss",
+"bls_cpi": "https://www.bls.gov/feed/cpi.rss",
+"bls_jobs": "https://www.bls.gov/feed/empsit.rss",
+"bls_ppi": "https://www.bls.gov/feed/ppi.rss",
+"bls_jolts": "https://www.bls.gov/feed/jolts.rss",
 }
 INTERVAL = 30
 OUTFILE = "data/news.csv"

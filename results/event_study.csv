@@ -1,0 +1,39 @@
+event_time,source,title,market,before,move_1m,move_5m,move_15m,peak_move,mins_to_peak,move_60m,reversal_pct
+2026-08-04T12:30:00+00:00,bls_jolts,Job openings and total separations change little in June; hires unchanged,Dec no change,58.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-08-04T12:30:00+00:00,bls_jolts,Job openings and total separations change little in June; hires unchanged,Dec hike 25,33.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-08-07T12:30:00+00:00,bls_jobs,"Both payroll employment (-23,000) and unemployment rate (4.1%) change little in July",Dec no change,58.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-08-07T12:30:00+00:00,bls_jobs,"Both payroll employment (-23,000) and unemployment rate (4.1%) change little in July",Dec hike 25,32.5,0.0,0.0,-1.0,-1.0,11,-1.0,0
+2026-08-12T12:30:00+00:00,bls_cpi,CPI for all items increases 0.1% in July; shelter rises,Dec no change,58.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-08-12T12:30:00+00:00,bls_cpi,CPI for all items increases 0.1% in July; shelter rises,Dec hike 25,31.5,0.0,0.0,0.0,0.0,0,-0.5,
+2026-08-13T12:30:00+00:00,bls_ppi,"PPI for final demand unchanged in July; services advance 0.2%, goods fall 0.7%",Dec no change,58.5,0.0,0.0,0.0,0.0,0,6.5,
+2026-08-13T12:30:00+00:00,bls_ppi,"PPI for final demand unchanged in July; services advance 0.2%, goods fall 0.7%",Dec hike 25,29.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-01T12:30:00+00:00,bls_jolts,"Job openings, hires, and total separations change little in July",Dec no change,44.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-01T12:30:00+00:00,bls_jolts,"Job openings, hires, and total separations change little in July",Dec hike 25,47.0,0.0,0.0,0.0,0.0,0,0.5,
+2026-09-04T12:30:00+00:00,bls_jobs,"Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",Dec no change,44.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-04T12:30:00+00:00,bls_jobs,"Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",Dec hike 25,43.5,0.0,0.5,0.5,1.0,19,0.5,50
+2026-09-10T12:30:00+00:00,bls_ppi,"PPI for final demand moves up 0.4% in August; goods advance 1.1%, services rise 0.1%",Dec no change,47.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-10T12:30:00+00:00,bls_ppi,"PPI for final demand moves up 0.4% in August; goods advance 1.1%, services rise 0.1%",Dec hike 25,47.0,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-11T12:30:00+00:00,bls_cpi,CPI for all items increases 0.4% in August; gasoline rises,Dec no change,34.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-11T12:30:00+00:00,bls_cpi,CPI for all items increases 0.4% in August; gasoline rises,Dec hike 25,59.5,1.0,1.0,1.0,1.0,1,1.0,0
+2026-09-29T12:30:00+00:00,bls_jolts,August job openings and hires change little; total separations unchanged,Dec no change,19.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-09-29T12:30:00+00:00,bls_jolts,August job openings and hires change little; total separations unchanged,Dec hike 25,76.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-10-02T12:30:00+00:00,bls_jobs,"Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",Dec no change,30.5,0.5,0.5,1.0,1.0,6,0.0,100
+2026-10-02T12:30:00+00:00,bls_jobs,"Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",Dec hike 25,67.5,-4.0,-3.5,-1.5,-5.0,3,-2.0,60
+2026-10-07T18:00:00+00:00,fed,"Minutes of the Federal Open Market Committee, September 15-16, 2026",Dec no change,23.5,0.0,0.0,0.0,0.0,0,0.0,
+2026-10-07T18:00:00+00:00,fed,"Minutes of the Federal Open Market Committee, September 15-16, 2026",Dec hike 25,74.5,0.0,0.0,0.0,0.0,1,0.0,
+2026-10-14T12:30:00+00:00,bls_cpi,CPI for all items increases 0.6% in September; gasoline rises,Dec no change,21.5,-1.0,-3.0,-2.0,-3.5,4,-2.0,43
+2026-10-14T12:30:00+00:00,bls_cpi,CPI for all items increases 0.6% in September; gasoline rises,Dec hike 25,75.5,0.0,4.0,2.0,4.0,4,3.0,25
+2026-10-15T12:30:00+00:00,bls_ppi,"PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",Dec no change,19.5,0.0,-1.0,-1.0,-1.0,4,-1.0,0
+2026-10-15T12:30:00+00:00,bls_ppi,"PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",Dec hike 25,78.5,0.0,0.0,0.0,1.0,17,1.0,0
+2026-10-28T18:00:00+00:00,fed,Federal Reserve issues FOMC statement,Dec no change,18.5,0.0,-2.0,-3.0,-3.0,4,-1.0,67
+2026-10-28T18:00:00+00:00,fed,Federal Reserve issues FOMC statement,Dec hike 25,78.0,0.0,3.5,3.5,4.5,8,1.5,67
+2026-11-03T13:30:00+00:00,bls_jolts,"September job openings, hires, and total separations change little; quits increase",Dec no change,25.5,0.0,0.0,0.0,0.0,1,0.0,
+2026-11-03T13:30:00+00:00,bls_jolts,"September job openings, hires, and total separations change little; quits increase",Dec hike 25,72.5,0.0,0.0,0.0,0.0,1,0.0,
+2026-11-06T13:30:00+00:00,bls_jobs,"Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",Dec no change,28.5,-4.0,-6.0,-6.0,-8.0,2,-7.0,13
+2026-11-06T13:30:00+00:00,bls_jobs,"Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",Dec hike 25,69.5,2.0,8.0,7.0,10.0,2,8.0,20
+2026-11-10T13:30:00+00:00,bls_cpi,CPI for all items increases 0.4% in October; shelter rises,Dec no change,6.5,0.0,-3.1,-4.2,-4.2,16,-4.0,7
+2026-11-10T13:30:00+00:00,bls_cpi,CPI for all items increases 0.4% in October; shelter rises,Dec hike 25,87.5,-0.5,-1.0,-3.0,-6.0,2,-3.0,50
+2026-11-13T13:30:00+00:00,bls_ppi,"PPI for final demand increases 0.3% in October; goods advance 0.5%, services rise 0.2%",Dec no change,2.2,0.4,0.2,0.3,0.5,8,0.5,
+2026-11-13T13:30:00+00:00,bls_ppi,"PPI for final demand increases 0.3% in October; goods advance 0.5%, services rise 0.2%",Dec hike 25,88.5,-1.0,1.0,2.0,3.0,21,2.0,33
+2026-11-18T19:00:00+00:00,fed,"Minutes of the Federal Open Market Committee, October 27-28, 2026",Dec no change,2.9,0.0,-0.5,-0.8,-1.1,7,-0.7,36
+2026-11-18T19:00:00+00:00,fed,"Minutes of the Federal Open Market Committee, October 27-28, 2026",Dec hike 25,92.5,-1.0,-3.0,-1.0,-3.0,3,-1.0,67
