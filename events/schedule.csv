@@ -1,4 +1,5 @@
 time_utc,source,title
-YYYY-MM-DD 13:30,bls_jobs,Employment Situation (November)
-YYYY-MM-DD 13:30,bls_cpi,Consumer Price Index (November)
-YYYY-MM-DD 19:00,fed,FOMC statement (December)
+2026-12-04 13:30,bls_jobs,Employment Situation (November)
+2026-12-09 19:00,fed,FOMC statement (December)
+2026-12-09 19:30,fed,FOMC press conference (December)
+2026-12-10 13:30,bls_cpi,Consumer Price Index (November)
